@@ -19,15 +19,10 @@ Harmonogram:
 
 zdroje:
 
-
 Technologie (příklad):
 Frontend: React (webová aplikace) nebo React Native / Flutter (mobilní aplikace)
-
 Backend: Node.js + Express, nebo Python Flask/Django
-
 Databáze: MongoDB (NoSQL) nebo PostgreSQL (relational)
-
 Autentizace: Firebase Authentication nebo JWT
-
 Grafy: knihovna jako Chart.js nebo D3.js
 
