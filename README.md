@@ -30,6 +30,12 @@ Navrhnout responzivní a intuitivní uživatelské rozhraní, které bude použi
 
 Harmonogram:
 
+Co se tím chci naučit:
+Práce s databází, autentizací, UI/UX.
+Plánování a rozvržení aplikace.
+Práce s časem (časovač, trvání tréninku).
+Volitelně: mobilní vývoj nebo webový framework.
+
 zdroje:
 
 Technologie (příklad):
