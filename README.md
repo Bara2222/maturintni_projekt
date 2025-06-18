@@ -1,23 +1,47 @@
 # rocnikovy_projekt
-Závěrečný projekt IT 4 : Aplikace pro sledování sportovních výkonů.
+Závěrečný projekt IT 4 : Aplikace pro vytvaření treninků. SmartTrainer
 
-Uživatelský profil, kde se zaznamenávají tréninky (běh, kolo, plavání, posilovna).
-Statistiky, grafy pokroku.
-Nastavení cílů a připomínek.
+Hlavní funkce:
+1. Registrace a přihlášení uživatele
+→ Možnost uložit vlastní tréninky, progres.
+2.Vytváření vlastních tréninkových plánů
+-Výběr cviků (můžeš mít databázi cviků – název, popis, video/obrázek).
+-Počet sérií a opakování, případně délka trvání cviku (např. plank 1 min).
+3.Volba obtížnosti
+-Začátečník, pokročilý, expert (mění se počet cviků, série, pauzy atd.).
+4.Časovač
+-Odpočítávání mezi sériemi / cviky (pauzy).
+-Možnost pauzu / restart během cvičení.
+5.Historie tréninků a statistiky
+-Datum, dokončené tréninky, délka trvání, obtížnost.
+-Možnost „zopakovat“ předchozí trénink.
+6.Hotové šablony tréninků
+-Např. „Trénink celého těla“, „Domácí HIIT“, „Protažení po běhu“
 
 Cíle projektu:
-Vyvinout uživatelsky přívětivou aplikaci pro sledování sportovních výkonů, která umožní uživatelům snadno zaznamenávat a analyzovat své tréninky.
-Umožnit uživatelům evidovat různé typy sportovních aktivit (běh, cyklistika, plavání, posilování apod.) s možností zadat specifické parametry každého tréninku.
-Poskytnout přehledné vizualizace dat a statistiky, které pomohou uživatelům sledovat svůj pokrok a motivovat je ke zlepšování výkonů.
-Implementovat systém nastavování a sledování osobních cílů, který uživatelům umožní stanovit si tréninkové cíle a sledovat jejich plnění.
-Zajistit notifikace a připomínky, které uživatele motivují k pravidelnému tréninku a upozorní je na dosažení milníků.
-Vytvořit systém odznaků a ocenění, který uživatele motivuje prostřednictvím gamifikace k pravidelnému cvičení.
-Navrhnout aplikaci s responzivním uživatelským rozhraním, aby byla použitelná jak na mobilních zařízeních, tak na desktopu.
-Zabezpečit aplikaci autentizací uživatelů a bezpečným ukládáním jejich dat.
+Navrhnout a vytvořit uživatelsky přívětivou aplikaci, která umožní uživatelům vytvářet, upravovat a sledovat své tréninkové plány podle osobních preferencí, časových možností a úrovně obtížnosti.
+Poskytnout databázi cviků s informacemi, jako je název, popis, typ (např. kardio, síla, protažení), doporučená délka nebo počet opakování, případně ilustrační obrázek nebo video.
+Implementovat systém pro personalizaci tréninků na základě úrovně obtížnosti (začátečník, pokročilý, expert), typu tréninku (celé tělo, břicho, kardio atd.) a časových možností uživatele.
+Zahrnout funkci časovače pro jednotlivé cviky i pauzy mezi nimi, s možností spuštění, pauznutí a restartu – ideální pro HIIT nebo kruhové tréninky.
+Umožnit evidenci a historii tréninků, díky které může uživatel sledovat svůj pokrok, zobrazit minulé tréninky a snadno je znovu spustit.
+Zajistit základní uživatelskou autentizaci, která umožní každému uživateli ukládat si své tréninky a mít k nim přístup odkudkoli.
+Navrhnout responzivní a intuitivní uživatelské rozhraní, které bude použitelné na mobilních zařízeních nebo v prohlížeči.
+
 
 Harmonogram:
 
 zdroje:
+
+Technologie (příklad):
+Varianta A: Mobilní aplikace (Doporučeno)
+Frontend: React Native nebo Flutter
+Backend: Firebase (Realtime DB / Firestore, autentizace) nebo Node.js + MongoDB
+Bonus: Možnost přehrávání videa ke cvikům
+
+Varianta B: Webová aplikace
+Frontend: React / Vue / HTML+CSS+JS
+Backend: Express (Node.js) + MongoDB / PostgreSQL
+Bonus: Responzivní design pro mobil i desktop
 
 Technologie (příklad):
 Frontend: React (webová aplikace) nebo React Native / Flutter (mobilní aplikace)
