@@ -1,4 +1,4 @@
-# rocnikovy_projekt
+# Maturitní_projekt
 Závěrečný projekt IT 4 : Aplikace pro vytvaření treninků. SmartTrainer
 
 Hlavní funkce:
