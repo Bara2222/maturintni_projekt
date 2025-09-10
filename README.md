@@ -1,20 +1,25 @@
-# Maturitní_projekt
+# Maturitní projekt
 Závěrečný projekt IT 4 : Aplikace pro vytvaření treninků. SmartTrainer
 
 Hlavní funkce:
 1. Registrace a přihlášení uživatele
 → Možnost uložit vlastní tréninky, progres.
+
 2.Vytváření vlastních tréninkových plánů
 -Výběr cviků (můžeš mít databázi cviků – název, popis, video/obrázek).
 -Počet sérií a opakování, případně délka trvání cviku (např. plank 1 min).
+
 3.Volba obtížnosti
 -Začátečník, pokročilý, expert (mění se počet cviků, série, pauzy atd.).
+
 4.Časovač
 -Odpočítávání mezi sériemi / cviky (pauzy).
 -Možnost pauzu / restart během cvičení.
+
 5.Historie tréninků a statistiky
 -Datum, dokončené tréninky, délka trvání, obtížnost.
 -Možnost „zopakovat“ předchozí trénink.
+
 6.Hotové šablony tréninků
 -Např. „Trénink celého těla“, „Domácí HIIT“, „Protažení po běhu“
 
