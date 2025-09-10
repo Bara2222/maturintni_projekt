@@ -36,7 +36,7 @@ Plánování a rozvržení aplikace.
 Práce s časem (časovač, trvání tréninku).
 Volitelně: mobilní vývoj nebo webový framework.
 
-zdroje:
+Zdroje:
 
 Technologie (příklad):
 Varianta A: Mobilní aplikace (Doporučeno)
