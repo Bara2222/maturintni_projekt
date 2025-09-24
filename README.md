@@ -74,13 +74,13 @@
 
 | Fáze | Popis                              | Termín  |
 | ---- | ---------------------------------- | ------- |
-| 1.   | Návrh UI/UX, struktura databáze    | Týden 1 |
-| 2.   | Autentizace uživatelů              | Týden 2 |
-| 3.   | Databáze cviků, tvorba tréninku    | Týden 3 |
-| 4.   | Implementace časovače              | Týden 4 |
-| 5.   | Historie, statistiky               | Týden 5 |
-| 6.   | Testování a opravy                 | Týden 6 |
-| 7.   | Finalizace, dokumentace, odevzdání | Týden 7 |
+| 1.   | Návrh UI/UX, struktura databáze    |         |
+| 2.   | Autentizace uživatelů              |         |
+| 3.   | Databáze cviků, tvorba tréninku    |         |
+| 4.   | Implementace časovače              |         |
+| 5.   | Historie, statistiky               |         |
+| 6.   | Testování a opravy                 |         |
+| 7.   | Finalizace, dokumentace, odevzdání |         |
 
 ---
 
