@@ -90,7 +90,7 @@
 * **Autentizace uživatelů**
 * **Návrh a vývoj UI/UX**
 * **Práce s časem v aplikaci** (časovač, délka tréninku)
-* Volitelně: základy mobilního vývoje (React Native / Flutter) nebo práce s webovým frameworkem (React/Vue)
+* Volitelně: základy mobilního vývoje (React Native / Flutter) 
 
 ---
 
@@ -101,15 +101,6 @@
 * **Frontend:** React Native nebo Flutter
 * **Backend:** Firebase (Firestore + Auth)
 * **Bonus:** Možnost přehrávání videí u cviků
-
-### Alternativní varianta: **Webová aplikace**
-
-* **Frontend:** React / Vue / čistý HTML+CSS+JS
-* **Backend:** Node.js + Express
-* **Databáze:** MongoDB nebo PostgreSQL
-* **Autentizace:** Firebase Auth nebo JWT
-* **Statistiky a grafy:** Chart.js / D3.js
-* **Design:** Responzivní – použitelné na mobil i desktop
 
 ---
 
@@ -123,6 +114,6 @@
 
 ---
 
-Chceš i verzi připravenou jako PDF k tisku / odevzdání, nebo máš ještě něco, co chceš doplnit či upravit?
+
 
 
