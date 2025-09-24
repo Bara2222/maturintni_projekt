@@ -1,135 +1,128 @@
 # Maturitní projekt
-Závěrečný projekt IT4 – SmartTrainer
+# **Závěrečný projekt IT4 – SmartTrainer**
 
-Aplikace pro tvorbu a sledování tréninkových plánů
+**Aplikace pro tvorbu a sledování tréninkových plánů**
 
-🔍 Popis projektu
+---
 
-SmartTrainer je interaktivní aplikace zaměřená na uživatele, kteří si chtějí vytvářet vlastní tréninkové plány, sledovat svůj progres a mít přehled o svých aktivitách. Cílem je vytvořit moderní, uživatelsky přívětivý nástroj dostupný na mobilních zařízeních nebo ve webovém prohlížeči.
+## 🔍 **Popis projektu**
 
-🎯 Cíle projektu
+**SmartTrainer** je interaktivní aplikace zaměřená na uživatele, kteří si chtějí vytvářet vlastní tréninkové plány, sledovat svůj progres a mít přehled o svých aktivitách. Cílem je vytvořit moderní, uživatelsky přívětivý nástroj dostupný na mobilních zařízeních nebo ve webovém prohlížeči.
 
-Navrhnout a vytvořit přehlednou a intuitivní aplikaci pro plánování tréninků.
+---
 
-Umožnit uživatelům personalizovat si své tréninky dle:
+## 🎯 **Cíle projektu**
 
-obtížnosti (začátečník, pokročilý, expert),
+* Navrhnout a vytvořit přehlednou a intuitivní aplikaci pro plánování tréninků.
+* Umožnit uživatelům personalizovat si své tréninky dle:
 
-typu cvičení (kardio, síla, protažení atd.),
+  * obtížnosti (začátečník, pokročilý, expert),
+  * typu cvičení (kardio, síla, protažení atd.),
+  * časových možností.
+* Poskytnout databázi cviků s informacemi jako:
 
-časových možností.
+  * název, popis, kategorie (typ cviku), video nebo obrázek, doporučený počet opakování nebo čas.
+* Implementovat časovač pro řízení tréninkových jednotek (intervaly, pauzy).
+* Zajistit historii tréninků a statistiky – sledování pokroku, opakování tréninků.
+* Zavést uživatelskou autentizaci (registrace/přihlášení) a ukládání dat v cloudu.
+* Optimalizovat UI pro mobilní i desktopová zařízení (responzivní design).
 
-Poskytnout databázi cviků s informacemi jako:
+---
 
-název, popis, kategorie (typ cviku), video nebo obrázek, doporučený počet opakování nebo čas.
+## 🔧 **Hlavní funkce aplikace**
 
-Implementovat časovač pro řízení tréninkových jednotek (intervaly, pauzy).
+1. ### **Registrace a přihlášení**
 
-Zajistit historii tréninků a statistiky – sledování pokroku, opakování tréninků.
+   * Vytvoření účtu / přihlášení.
+   * Ukládání osobních tréninků, historie a statistik.
 
-Zavést uživatelskou autentizaci (registrace/přihlášení) a ukládání dat v cloudu.
+2. ### **Tvorba tréninkových plánů**
 
-Optimalizovat UI pro mobilní i desktopová zařízení (responzivní design).
+   * Výběr cviků z databáze (název, popis, obrázek/video).
+   * Možnost zadat:
 
-🔧 Hlavní funkce aplikace
-Registrace a přihlášení
+     * Počet sérií, počet opakování, délku trvání (pro cviky typu plank apod.).
 
-Vytvoření účtu / přihlášení.
+3. ### **Nastavení obtížnosti**
 
-Ukládání osobních tréninků, historie a statistik.
+   * Výběr úrovně: **Začátečník / Pokročilý / Expert**.
+   * Úroveň ovlivňuje:
 
-Tvorba tréninkových plánů
+     * Počet cviků, série, délku pauzy, intenzitu tréninku.
 
-Výběr cviků z databáze (název, popis, obrázek/video).
+4. ### **Časovač (Timer)**
 
-Možnost zadat:
+   * Spouštění odpočítávání mezi sériemi a cviky.
+   * Možnost **pauzy / restartu** během tréninku.
+   * Režim pro **HIIT** a **kruhové tréninky**.
 
-Počet sérií, počet opakování, délku trvání (pro cviky typu plank apod.).
+5. ### **Historie tréninků a statistiky**
 
-Nastavení obtížnosti
+   * Záznam: datum, délka tréninku, obtížnost, dokončené tréninky.
+   * Možnost zopakovat předchozí trénink jedním kliknutím.
+   * Statistické grafy pokroku (volitelně).
 
-Výběr úrovně: Začátečník / Pokročilý / Expert.
+6. ### **Přednastavené šablony tréninků**
 
-Úroveň ovlivňuje:
+   * Rychlý výběr hotových plánů:
 
-Počet cviků, série, délku pauzy, intenzitu tréninku.
+     * „Celé tělo“, „Domácí HIIT“, „Protažení po běhu“, atd.
 
-Časovač (Timer)
+---
 
-Spouštění odpočítávání mezi sériemi a cviky.
+## 🗓 **Harmonogram práce**
 
-Možnost pauzy / restartu během tréninku.
+| Fáze | Popis                              | Termín  |
+| ---- | ---------------------------------- | ------- |
+| 1.   | Návrh UI/UX, struktura databáze    | Týden 1 |
+| 2.   | Autentizace uživatelů              | Týden 2 |
+| 3.   | Databáze cviků, tvorba tréninku    | Týden 3 |
+| 4.   | Implementace časovače              | Týden 4 |
+| 5.   | Historie, statistiky               | Týden 5 |
+| 6.   | Testování a opravy                 | Týden 6 |
+| 7.   | Finalizace, dokumentace, odevzdání | Týden 7 |
 
-Režim pro HIIT a kruhové tréninky.
+---
 
-Historie tréninků a statistiky
+## 🧠 **Co se chci naučit**
 
-Záznam: datum, délka tréninku, obtížnost, dokončené tréninky.
+* **Práce s databází** (strukturování, CRUD operace)
+* **Autentizace uživatelů**
+* **Návrh a vývoj UI/UX**
+* **Práce s časem v aplikaci** (časovač, délka tréninku)
+* Volitelně: základy mobilního vývoje (React Native / Flutter) nebo práce s webovým frameworkem (React/Vue)
 
-Možnost zopakovat předchozí trénink jedním kliknutím.
+---
 
-Statistické grafy pokroku (volitelně).
+## 🛠 **Použité technologie**
 
-Přednastavené šablony tréninků
+### ✅ Doporučená varianta: **Mobilní aplikace**
 
-Rychlý výběr hotových plánů:
+* **Frontend:** React Native nebo Flutter
+* **Backend:** Firebase (Firestore + Auth)
+* **Bonus:** Možnost přehrávání videí u cviků
 
-„Celé tělo“, „Domácí HIIT“, „Protažení po běhu“, atd.
+### Alternativní varianta: **Webová aplikace**
 
-🗓 Harmonogram práce
-Fáze	Popis	Termín
-1.	Návrh UI/UX, struktura databáze	Týden 1
-2.	Autentizace uživatelů	Týden 2
-3.	Databáze cviků, tvorba tréninku	Týden 3
-4.	Implementace časovače	Týden 4
-5.	Historie, statistiky	Týden 5
-6.	Testování a opravy	Týden 6
-7.	Finalizace, dokumentace, odevzdání	Týden 7
-🧠 Co se chci naučit
+* **Frontend:** React / Vue / čistý HTML+CSS+JS
+* **Backend:** Node.js + Express
+* **Databáze:** MongoDB nebo PostgreSQL
+* **Autentizace:** Firebase Auth nebo JWT
+* **Statistiky a grafy:** Chart.js / D3.js
+* **Design:** Responzivní – použitelné na mobil i desktop
 
-Práce s databází (strukturování, CRUD operace)
+---
 
-Autentizace uživatelů
+## 📚 **Zdroje a inspirace**
 
-Návrh a vývoj UI/UX
+* Open-source workout aplikace na GitHubu
+* YouTube tutoriály pro tvorbu React Native aplikací
+* Firebase dokumentace
+* Figma / Canva pro návrh UI
+* Weby jako [Exercisedb.io](https://exercisedb.io) – pro inspiraci u databáze cviků
 
-Práce s časem v aplikaci (časovač, délka tréninku)
+---
 
-Volitelně: základy mobilního vývoje (React Native / Flutter) nebo práce s webovým frameworkem (React/Vue)
+Chceš i verzi připravenou jako PDF k tisku / odevzdání, nebo máš ještě něco, co chceš doplnit či upravit?
 
-🛠 Použité technologie
-✅ Doporučená varianta: Mobilní aplikace
-
-Frontend: React Native nebo Flutter
-
-Backend: Firebase (Firestore + Auth)
-
-Bonus: Možnost přehrávání videí u cviků
-
-Alternativní varianta: Webová aplikace
-
-Frontend: React / Vue / čistý HTML+CSS+JS
-
-Backend: Node.js + Express
-
-Databáze: MongoDB nebo PostgreSQL
-
-Autentizace: Firebase Auth nebo JWT
-
-Statistiky a grafy: Chart.js / D3.js
-
-Design: Responzivní – použitelné na mobil i desktop
-
-📚 Zdroje a inspirace
-
-Open-source workout aplikace na GitHubu
-
-YouTube tutoriály pro tvorbu React Native aplikací
-
-Firebase dokumentace
-
-Figma / Canva pro návrh UI
-
-Weby jako Exercisedb.io
- – pro inspiraci u databáze cviků
 
