@@ -95,10 +95,11 @@
 ---
 
 ## 🛠 **Použité technologie**
+* **Frontend:** Flutter
 
 ### ✅ Doporučená varianta: **Mobilní aplikace**
 
-* **Frontend:** React Native nebo Flutter
+* **Frontend:** Flutter
 * **Backend:** Firebase (Firestore + Auth)
 * **Bonus:** Možnost přehrávání videí u cviků
 
@@ -107,7 +108,7 @@
 ## 📚 **Zdroje a inspirace**
 
 * Open-source workout aplikace na GitHubu
-* YouTube tutoriály pro tvorbu React Native aplikací
+* YouTube tutoriály pro tvorbu Flutter aplikací
 * Firebase dokumentace
 * Figma / Canva pro návrh UI
 * Weby jako [Exercisedb.io](https://exercisedb.io) – pro inspiraci u databáze cviků
