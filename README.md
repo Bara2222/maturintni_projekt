@@ -90,7 +90,7 @@
 * **Autentizace uživatelů**
 * **Návrh a vývoj UI/UX**
 * **Práce s časem v aplikaci** (časovač, délka tréninku)
-* Volitelně: základy mobilního vývoje (React Native / Flutter) 
+* Volitelně: základy mobilního vývoje (Flutter) 
 
 ---
 
