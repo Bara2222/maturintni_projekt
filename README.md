@@ -4,6 +4,9 @@
 **Aplikace pro tvorbu a sledování tréninkových plánů**
 
 ---
+# **Odkaz na videoprezentaci**
+https://youtu.be/UnsA42Fy1WA
+---
 
 ## 🔍 **Popis projektu**
 
